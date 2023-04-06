@@ -1,0 +1,180 @@
+body{
+    font-family: 'Alkatra', cursive;
+}
+h1{
+    font-size: 70px;
+}
+#heading{
+    
+    background-color: #19376D;
+    color: #0E8388;
+    font-family: 'Tillana', cursive;
+    transition: all;
+    transition-duration: 5s;
+    
+   
+}
+#heading h1{
+    color: #ECF2FF;
+}
+.head{
+    color: #FC2947;
+    animation-name: heads;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes heads {
+    0%{
+       color: #2D2727; 
+    }
+    25%{
+        color: #413543; 
+    } 
+    
+    50%{
+        color: #8F43EE; 
+    }
+    
+    75%{
+        color: #F0EB8D; 
+    } 
+    
+    
+}
+.P:hover{
+    color: #AA77FF;
+}
+p:hover{
+color: #060047;
+}
+.Myimage{
+    border-radius: 100%;
+    width: 40%;
+}
+#about{
+   
+    background-color: #576CBC;
+}
+#Work{
+   
+    background-color: #A5D7E8;
+}
+#contact{
+   
+    background-color: #DAF5FF;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+/* Messages */
+#message{
+    /* background: url(Images/bg2.jpg); */
+   /* width: 100vw; */
+   background-color: #DAF5FF;
+height: 70vh;
+background-position: center;
+background-repeat: no-repeat;
+background-position: 100% 20%;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.Input{
+   
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    color: #000;
+    border-radius: 9px;
+    backdrop-filter: blur(10px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(94, 151, 231, 0.3);
+    line-height: 1.5;
+    transform: translatey(-5%);
+    transition: transform 0.5s;
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+height: 70px;
+overflow: hidden;
+margin-top: 40px;
+}
+
+.input input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    }
+
+    .Input h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        }
+        .Input h2 {
+        font-size: 1rem;
+        margin-top: 20px;
+        }
+       
+        .Interface{
+            background-color: #ECF2FF;
+            width: 100px;
+            height: 300px;
+           
+            padding: 50px;
+            color: #1c1f1f;
+            border-radius: 9px;
+            backdrop-filter: blur(10px);
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            box-shadow: 10px 10px 10px #96b4f4;
+            line-height: 1.5;
+            transform: translatey(-5%);
+            transition: transform 0.5s;
+            text-align: center;
+        }
+
+        .H1{
+            animation: HEAD 2s linear forwards;
+            overflow: hidden;
+            animation-iteration-count: infinite;
+        }
+        @keyframes HEAD {
+            0%{
+                width: 0px;
+                height: 0px;
+            }
+
+            30%{
+                width: 200px;
+                height: 0px;
+            }
+
+            60%{
+                width: 200px;
+                height: 20px;
+            }
+            
+        }
+
+        /* Footer Section */
+#footer {
+    text-align: center;
+    color: gray;
+    padding: 7% 15%;
+    background-color: #F1F6F5;
+}
+
+
